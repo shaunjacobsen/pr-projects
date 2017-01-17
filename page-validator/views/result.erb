@@ -1,0 +1,44 @@
+<h1>Result</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>attribute</th>
+            <th>value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% @meta.each do |attribute, value| %>
+          <tr>
+            <th scope="row"><%= attribute %></th>
+            <td><%= value %></td>
+          </tr>
+          <% end %>
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+    <h2>PowerReviews</h2>
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>check</th>
+            <th>condition</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><i class="fa <%= render_checkmark?(fulljs_present?) %> fa-2x" aria-hidden="true"></i></td>
+            <td>full.js present</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

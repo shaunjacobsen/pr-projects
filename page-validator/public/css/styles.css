@@ -1,0 +1,76 @@
+/* --- COLORS ---
+/* Blue 51C8E8
+/* Red F15D22
+/* Green 8CC63F
+/* Yellow FDB813
+/* Turquoise 74C7B8
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700|Overpass+Mono');
+
+body {
+  background-color: #ECECEC;
+  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+}
+
+nav img {
+  margin: 10px 0;
+  max-height: 38px;
+  margin: -10px 0 0 0;
+}
+
+.navbar-inverse {
+  background-color: #343838;
+  border: none;
+}
+
+form.navbar-form {
+  width: 80%;
+}
+
+.form-group {
+  width: 90%;
+}
+
+input#url {
+  margin: 4px 0 0 0;
+  width: 100%;
+  background-color: #343838;
+  border: none;
+  border-radius: 0px;
+  color: #999999;
+  font-size: 18px;
+  padding: 0;
+  height: auto;
+}
+
+input#url:focus {
+  outline-width: 10px;
+  border-bottom: 2px solid #ECECEC;
+  box-shadow: none;
+}
+
+header {
+  margin-top: 80px;
+  width: 100%;
+}
+
+main {
+  margin-top: 65px;
+}
+
+main h1 {
+  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 700;
+  border-bottom: 3px solid #333333;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-weight: 300;
+  color: #F15D22;
+  border-bottom: 1px solid #F15D22;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
