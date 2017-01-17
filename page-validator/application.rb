@@ -8,6 +8,8 @@ require "bcrypt"
 require "nokogiri"
 require "open-uri"
 require "cgi"
+require "capybara"
+require "capybara/poltergeist"
 
 # configuration
 
